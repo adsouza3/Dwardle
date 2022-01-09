@@ -1,23 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
+  "short_name": "Words",
+  "name": "Words",
+  "icons": {
+    "16": "icons/dwardy-16.jpg",
+    "32": "icons/dwardy-32.jpg",
+    "48": "icons/dwardy-48.jpg",
+    "64": "icons/dwardy-64.jpg",
+    "96": "icons/dwardy-96.jpg",
+    "128": "icons/lowercase_W_yellow.png"
+  },
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
