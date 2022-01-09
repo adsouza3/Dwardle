@@ -1,0 +1,50 @@
+.board-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.game-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.guess-wrapper {
+  display: flex;
+}
+
+.guess-letter {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+.guess-letter.correct {
+  background-color: greenyellow;
+}
+
+.guess-letter.close {
+  background-color: yellow;
+}
+
+.guess-letter.incorrect {
+  background-color:gray;
+}
+
+.guess-letter.failed {
+  background-color: salmon;
+}
+
+.sidebar {
+  width: 400px;
+}
+
+.sidebar .guess-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
