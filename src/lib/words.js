@@ -1,3 +1,8 @@
+export const newWord = () => {
+  let word = words[Math.floor(Math.random() * words.length)];
+  return word;
+};
+
 const words = [
 'which',
 'there',
@@ -5757,5 +5762,3 @@ const words = [
 'biffy',
 'pupal'
 ];
-
-export default words;

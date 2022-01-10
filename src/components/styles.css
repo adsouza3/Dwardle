@@ -42,9 +42,16 @@
 
 .sidebar {
   width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar .guess-wrapper {
   display: flex;
   flex-wrap: wrap;
+}
+
+.sidebar .controls {
+  margin-top: 50px;
+  margin-left: 125px;
 }

@@ -1,17 +1,6 @@
 import { produce } from 'immer';
 
-import words from '../lib/words';
-
-const newWord = () => {
-  for(let i = 0; i < 100; i++) {
-    let word = words[Math.floor(Math.random() * words.length)];
-    let letters = new Set();
-    [...word].forEach(letter => letters.add(letter));
-    if (letters.size === word.length) {
-      return word;
-    }
-  }
-};
+import { newWord } from '../lib/words';
 
 export const initialState = {
   answer: newWord(),

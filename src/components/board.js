@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useReducer } from 'react';
 
 import { initialState, reducer } from '../store';
 import Alphabet from './alphabet';
+import Controls from './controls';
 
 import Guess from './guess';
 
@@ -46,7 +47,8 @@ const Board = () => {
         {failed && <Guess answer={answer} guess={answer} failed />}
       </div>
       <div className="sidebar">
-        <Alphabet answer={answer} guesses={guesses}/>
+      <Alphabet answer={answer} guesses={guesses}/>
+      <Controls />
       </div>
     </div>
   );
